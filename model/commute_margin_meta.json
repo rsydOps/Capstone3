@@ -1,0 +1,12 @@
+{
+  "commute_margin": 1.2,
+  "commute_hours": [
+    7,
+    8,
+    9,
+    17,
+    18,
+    19
+  ],
+  "note": "Kalikan prediksi model pada baris is_commute==1 dengan nilai ini. Kalibrasi ulang berkala disarankan (lihat notebook bagian 7.11 dan 11.5)."
+}
