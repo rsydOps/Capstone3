@@ -183,8 +183,6 @@ Feature importance dan SHAP value, dihitung dari model titik-prediksi, menunjukk
 └── README.md
 ```
 
-Struktur ini mengikuti path relatif yang dipakai di dalam notebook (`../data/...` dan `../models/...`), sehingga notebook harus dijalankan dari dalam folder `notebooks/` agar path tersebut valid. Ini adalah perilaku default Jupyter Notebook/JupyterLab, yang menjadikan lokasi berkas `.ipynb` sebagai working directory.
-
 ## 8. Cara Menjalankan / Reproduksi
 
 **Kebutuhan.** Python 3.10 atau lebih baru, dan pustaka berikut:
