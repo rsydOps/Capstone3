@@ -200,7 +200,7 @@ pip install pandas numpy scipy scikit-learn xgboost shap statsmodels seaborn mat
    source .venv/bin/activate
    ```
 3. Install pustaka yang dibutuhkan dengan perintah pip di atas.
-4. Jalankan `jupyter notebook` atau `jupyter lab` dari root repository, lalu buka `notebooks/capstone_v2.ipynb`.
+4. Jalankan `jupyter notebook` atau `jupyter lab` dari root repository, lalu buka `notebooks/capstone_v3.ipynb`.
 5. Jalankan seluruh cell dari atas ke bawah (menu Kernel > Restart & Run All), karena beberapa cell di bagian akhir bergantung pada variabel yang didefinisikan di cell sebelumnya.
 
 ## 9. Cara Menggunakan Model Tersimpan
@@ -244,7 +244,7 @@ Input (`X_new`) harus berupa DataFrame dengan delapan kolom mentah yang sama sep
 
 | Berkas | Deskripsi |
 |---|---|
-| `notebooks/capstone_v2.ipynb` | Notebook analisis lengkap, dari business understanding sampai model tersimpan |
+| `notebooks/capstone_v3.ipynb` | Notebook analisis lengkap, dari business understanding sampai model tersimpan |
 | `data/data_bike_sharing.csv` | Dataset historis penyewaan sepeda per jam (12.165 baris, 2011-2012) |
 | `models/final_model_xgboost.pkl` | Pipeline preprocessing dan model XGBoost final, hasil refit pada seluruh data |
 | `models/commute_margin_meta.json` | Metadata margin commute (nilai margin, jam commute, catatan penggunaan) |
